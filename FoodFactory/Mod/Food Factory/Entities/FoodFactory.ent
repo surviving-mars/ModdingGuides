@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<src file="C:/Users/Silva/AppData/Roaming/Surviving Mars/ModAssets/FBX/FoodFactory_Scene.fbx"/>
+		<mesh file="FoodFactory_mesh.m.hgm"/>
+		<material file="FoodFactory_mesh.mtl"/>
+		<lod idx="1" distance="350">
+			<mesh file="FoodFactory_mesh.1.m.hgm"/>
+			<material file="FoodFactory_mesh.1.mtl"/>
+		</lod>
+		<lod idx="2" distance="650">
+			<mesh file="FoodFactory_mesh.2.m.hgm"/>
+			<material file="FoodFactory_mesh.2.mtl"/>
+		</lod>
+		<bsphere value="56,0,253,960"/>
+		<box min="-626,-626,0" max="739,626,507"/>
+		<attach name="Autoattach" spot_note="att,LampInt_02,show" spot_pos="707,-600,0"/>
+		<attach name="Autoattach" spot_note="att,LampInt_02,show" spot_pos="707,600,0"/>
+		<attach name="Door" spot_note="entity=FoodFactoryDoor,openInside=2,openOutside=4,chain=1,waypoint=1" spot_pos="500,0,0"/>
+		<attach name="Door" spot_note="chain=1,waypoint=2" spot_pos="600,0,0"/>
+		<attach name="Door" spot_note="chain=1,waypoint=3" spot_pos="700,0,0"/>
+		<attach name="Door" spot_note="chain=1,waypoint=4" spot_pos="800,0,0"/>
+		<attach name="Door" spot_note="chain=1,waypoint=5" spot_pos="900,0,0"/>
+		<attach name="L" spot_note="warm,srad:5,rad:15,int:10,imp" spot_pos="700,-600,92"/>
+		<attach name="L" spot_note="warm,srad:5,rad:15,int:10,imp" spot_pos="700,600,92"/>
+		<attach name="Smoke" spot_pos="-321,8,507"/>
+		<attach name="Smoke" spot_pos="-321,222,507"/>
+		<attach name="Top" spot_pos="0,0,2500"/>
+		<attach name="Workdrone" spot_pos="-1250,0,0"/>
+		<attach name="Workdrone" spot_pos="0,-866,0" spot_rot="0.000000,0.000000,0.707107,90.0000"/>
+		<attach name="Workdrone" spot_pos="0,866,0" spot_rot="0.000000,0.000000,-0.707107,90.0000"/>
+		<attach name="Workdrone" spot_pos="1250,0,0" spot_rot="0.000000,0.000000,1.000000,180.0000"/>
+		<surf type="collision" points="-640,-107,253;-640,-640,253;-640,-640,0"/>
+		<surf type="collision" points="-640,-107,253;-640,-640,507;-640,-640,253"/>
+		<surf type="collision" points="-640,-107,253;-640,-640,0;-640,-107,0"/>
+		<surf type="collision" points="-640,107,253;-640,-107,253;-640,-107,0"/>
+		<surf type="collision" points="-640,107,253;-640,-107,507;-640,-107,253"/>
+		<surf type="collision" points="-640,-640,507;-640,-107,253;-640,-107,507"/>
+		<surf type="collision" points="-640,-640,253;640,-640,0;-640,-640,0"/>
+		<surf type="collision" points="-640,-640,507;640,-640,253;-640,-640,253"/>
+		<surf type="collision" points="640,-107,0;-640,-107,0;-640,-640,0"/>
+		<surf type="collision" points="-640,-107,507;640,-107,507;-640,-640,507"/>
+		<surf type="collision" points="-640,107,253;-640,-107,0;-640,107,0"/>
+		<surf type="collision" points="-640,640,253;-640,107,253;-640,107,0"/>
+		<surf type="collision" points="-640,640,253;-640,107,507;-640,107,253"/>
+		<surf type="collision" points="-640,-107,507;-640,107,253;-640,107,507"/>
+		<surf type="collision" points="-640,640,253;-640,107,0;-640,640,0"/>
+		<surf type="collision" points="-640,107,507;-640,640,253;-640,640,507"/>
+		<surf type="collision" points="640,107,0;-640,107,0;-640,-107,0"/>
+		<surf type="collision" points="-640,107,507;640,107,507;-640,-107,507"/>
+		<surf type="collision" points="640,640,0;-640,640,0;-640,107,0"/>
+		<surf type="collision" points="640,640,253;-640,640,253;-640,640,0"/>
+		<surf type="collision" points="-640,640,507;640,640,507;-640,107,507"/>
+		<surf type="collision" points="640,640,507;-640,640,507;-640,640,253"/>
+		<surf type="collision" points="-640,-640,253;640,-640,253;640,-640,0"/>
+		<surf type="collision" points="-640,-640,0;640,-640,0;640,-107,0"/>
+		<surf type="collision" points="-640,-640,507;640,-640,507;640,-640,253"/>
+		<surf type="collision" points="-640,-640,507;640,-107,507;640,-640,507"/>
+		<surf type="collision" points="-640,-107,0;640,-107,0;640,107,0"/>
+		<surf type="collision" points="-640,-107,507;640,107,507;640,-107,507"/>
+		<surf type="collision" points="640,-640,253;640,-107,0;640,-640,0"/>
+		<surf type="collision" points="640,-107,507;640,-640,253;640,-640,507"/>
+		<surf type="collision" points="640,-640,253;640,-107,253;640,-107,0"/>
+		<surf type="collision" points="640,-640,253;640,-107,507;640,-107,253"/>
+		<surf type="collision" points="739,-107,253;640,-107,0;640,-107,253"/>
+		<surf type="collision" points="739,-107,0;640,107,0;640,-107,0"/>
+		<surf type="collision" points="640,107,507;640,-107,253;640,-107,507"/>
+		<surf type="collision" points="640,-107,0;739,-107,253;739,-107,0"/>
+		<surf type="collision" points="739,-107,253;739,107,0;739,-107,0"/>
+		<surf type="collision" points="640,-107,253;739,107,253;739,-107,253"/>
+		<surf type="collision" points="-640,107,0;640,107,0;640,640,0"/>
+		<surf type="collision" points="-640,107,507;640,640,507;640,107,507"/>
+		<surf type="collision" points="640,640,253;-640,640,0;640,640,0"/>
+		<surf type="collision" points="640,640,507;-640,640,253;640,640,253"/>
+		<surf type="collision" points="640,107,253;640,107,0;739,107,0"/>
+		<surf type="collision" points="640,-107,253;640,107,253;739,107,253"/>
+		<surf type="collision" points="640,-107,253;640,107,507;640,107,253"/>
+		<surf type="collision" points="640,107,253;640,640,0;640,107,0"/>
+		<surf type="collision" points="640,640,507;640,107,253;640,107,507"/>
+		<surf type="collision" points="640,107,253;640,640,253;640,640,0"/>
+		<surf type="collision" points="640,107,253;640,640,507;640,640,253"/>
+		<surf type="collision" points="739,-107,0;739,107,0;640,107,0"/>
+		<surf type="collision" points="739,-107,253;739,107,253;739,107,0"/>
+		<surf type="collision" points="739,107,0;739,107,253;640,107,253"/>
+		<surf type="hex_shape" points="-804,-804,0;-804,804,0;804,804,0"/>
+		<surf type="hex_shape" points="-804,-804,0;804,804,0;804,-804,0"/>
+		<surf type="selection" points="-1143,0,0;571,-966,0;-571,-966,0"/>
+		<surf type="selection" points="-571,966,0;1143,0,0;-1143,0,0"/>
+		<surf type="selection" points="571,-966,0;-1143,0,0;1143,0,0"/>
+		<surf type="selection" points="1143,0,0;-571,966,0;571,966,0"/>
+		<surf_hash type="collision" value="922039799"/>
+		<surf_hash type="hex_shape" value="2312244889"/>
+		<surf_hash type="selection" value="871690934"/>
+	</mesh_description>
+</entity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+		<anim file="FoodFactoryDoor_idle.hgacl" duration="33"/>
+		<bsphere value="433,0,67,438"/>
+		<box min="725,-91,0" max="725,91,223"/>
+	</state>
+	<state id="opening">
+		<mesh_ref ref="mesh"/>
+		<anim file="FoodFactoryDoor_opening.hgacl" duration="500"/>
+		<bsphere value="454,0,58,461"/>
+		<box min="725,-91,-218" max="725,91,223"/>
+	</state>
+	<mesh_description id="mesh">
+		<mesh file="FoodFactoryDoor_mesh.m.hgm"/>
+		<material file="FoodFactoryDoor_mesh.mtl"/>
+		<bsphere value="725,0,111,144"/>
+		<box min="725,-91,0" max="725,91,223"/>
+	</mesh_description>
+</entity>
